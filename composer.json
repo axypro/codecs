@@ -1,0 +1,33 @@
+{
+    "name": "axy/codecs",
+    "type": "library",
+    "description": "Codecs interfaces",
+    "keywords": [
+        "Codec",
+        "Encoder",
+        "Decoder"
+    ],
+    "homepage": "https://github.com/axypro/codecs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg Grigoriev",
+            "email": "go.vasac@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.4",
+        "phpmd/phpmd": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "axy\\codecs\\": "src"
+        }
+    },
+    "archive": {
+        "exclude": ["/tests/*", "/doc/*", "/cs.sh", "/phpmd.sh", "/*.xml.dist", "/CHANGELOG.md"]
+    }
+}
